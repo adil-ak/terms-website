@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif; 
+    background-color: #533454;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+header {
+    padding: 50px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brand-logo {
+    max-width: 180px; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.logo {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800; 
+    font-size: 2.4rem;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 50px;
+    background: #ffffff;
+    color: #333333;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.hero-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #533454; 
+}
+
+.subtitle {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.date-badge {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 30px;
+    background: #533454;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 40px 0;
+}
+
+
+h2 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: #533454;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 18px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1rem;
+}
+
+ul li::before {
+    content: "◆"; 
+    color: #533454;
+    position: absolute;
+    left: 0;
+}
+
+
+.action-bar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #533454;
+    color: #ffffff;
+    padding: 18px 50px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #3e273e;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+}
