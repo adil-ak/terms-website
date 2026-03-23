@@ -134,10 +134,3 @@ ul li::before {
     transform: translateY(-2px);
 }
 
-footer {
-    text-align: center;
-    padding: 60px;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.5);
-    letter-spacing: 1px;
-}
